@@ -1,0 +1,18 @@
+# IDEA
+.idea/shelf/
+.idea/workspace.xml
+.idea/queries/
+.idea/dataSources/
+.idea/dataSources.local.xml
+.idea/httpRequests/
+
+# 编译输出
+out/
+*.class
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 成绩报表（每次运行都会变，不想提交可以取消注释）
+# 成绩报表.txt
