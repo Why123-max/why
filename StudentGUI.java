@@ -4,10 +4,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
-/**
- * 图形界面类 - 大一Swing基础写法
- * 简单实用，所有组件都是基础款
- */
+
 public class StudentGUI extends JFrame {
     // 业务逻辑对象
     private ScoreManager manager;
