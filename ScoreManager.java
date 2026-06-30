@@ -4,10 +4,6 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Random;
 
-/**
- * 成绩管理核心类 - 大一水平，只用基础集合和IO
- * 负责所有业务逻辑：增删改查、统计、文件读写
- */
 public class ScoreManager {
     // 用ArrayList存所有学生（大一必学的集合）
     private ArrayList<Student> studentList;
