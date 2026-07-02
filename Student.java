@@ -1,20 +1,16 @@
-
 public class Student {
-    // 学生属性（封装：私有属性）
-    private String id;          // 学号（自动生成，唯一）
-    private String name;        // 姓名
-    private String gender;      // 性别
-    private String birthday;    // 出生年月日
-    private double mathScore;   // 数学成绩
-    private double javaScore;   // Java成绩
-    private double peScore;     // 体育成绩
+    private String id;
+    private String name;
+    private String gender;
+    private String birthday;
+    private double mathScore;
+    private double javaScore;
+    private double peScore;
 
-    // 无参构造方法（大一必学）
     public Student() {
     }
 
-    // 带参构造方法（快速创建学生对象）
-    public Student(String id, String name, String gender, String birthday, 
+    public Student(String id, String name, String gender, String birthday,
                    double mathScore, double javaScore, double peScore) {
         this.id = id;
         this.name = name;
@@ -35,7 +31,6 @@ public class Student {
         return getTotalScore() / 3;
     }
 
-    // ========== 以下是Getter和Setter方法（封装必备，大一必学） ==========
     public String getId() {
         return id;
     }
@@ -92,8 +87,8 @@ public class Student {
         this.peScore = peScore;
     }
 
-    // toString方法，方便打印学生信息
-    @Override
+    // 将学生对象转为易读的字符串，方便打印输出和调试（System.out.println(学生对象) 时会自动调用）
+
     public String toString() {
         return "Student{" +
                 "学号='" + id + '\'' +
